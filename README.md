@@ -1,32 +1,49 @@
-# 🌈 Story Generator with Gemini API and LangChain
+# ✨ AI-Powered Story Generator
 
-This is an interactive web application built with **Streamlit** that generates custom stories using **Google's Gemini API** via **LangChain**. Users provide details about characters and story themes, then receive a structured story complete with a prologue, chapters, and an epilogue.
+An interactive web application that generates compelling multi-chapter stories based on custom character inputs and plot premises. Built using **Streamlit**, **LangChain**, and **Google's Gemini API**, this tool leverages the power of generative AI to craft original stories tailored to your preferences.
 
 ---
 
-## 🚀 Features
+## 🚀 Live Demo
 
-- ✍️ Custom inputs for character name, type, personality, and location
-- 📚 Choose story length: **Short (5 chapters)** or **Long (10 chapters)**
-- 🌌 Multiple selectable story premises (Love, Adventure, Mystery, etc.)
-- 🎨 Adjustable creativity level: **Low** or **High**
-- 📄 Download generated story as a `.txt` file
-- ✅ Input validation with clear error messages
+> Coming Soon – or run locally by following the steps below.
+
+---
+
+## 📌 Key Highlights
+
+- ✅ **Dynamic Story Generation** — Create stories with a custom character, location, personality, and genre.
+- 📖 **Structured Format** — Each story includes a prologue, chapter outlines, 5–10 full chapters, and an epilogue.
+- 🧠 **Creativity Toggle** — Choose between low or high creativity levels for different tones and styles.
+- 📂 **Downloadable Output** — Instantly download the generated story as a `.txt` file.
+- 🔐 **Secure API Access** — Uses environment variables to keep API keys safe.
 
 ---
 
 ## 🛠️ Tech Stack
 
-- [Streamlit](https://streamlit.io/)
-- [LangChain](https://www.langchain.com/)
-- [Google Gemini API](https://ai.google.dev/)
-- [python-dotenv](https://pypi.org/project/python-dotenv/)
+| Tool/Library         | Purpose                                 |
+|----------------------|------------------------------------------|
+| Streamlit            | Frontend for interactive UI              |
+| LangChain            | Prompt orchestration & API calls         |
+| Google Gemini API    | Generative AI model for story creation   |
+| python-dotenv        | Securely load API keys from `.env`       |
 
 ---
 
-## 📦 Installation
+## 🧪 How It Works
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/yourusername/story-generator-gemini.git
-   cd story-generator-gemini
+1. User fills in story details (name, character type, etc.)
+2. Selects the story length, premise(s), and creativity level
+3. App constructs a tailored prompt and sends it to Gemini via LangChain
+4. Gemini responds with a complete, chapter-based story
+5. User views and optionally downloads the story
+
+---
+
+## 📦 Installation Instructions
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/yourusername/ai-story-generator.git
+cd ai-story-generator
