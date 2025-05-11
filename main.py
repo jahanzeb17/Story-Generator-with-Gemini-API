@@ -23,7 +23,7 @@ def get_gemini_pro_text_response(model, prompt, temperature):
     return response.content
 
 # Streamlit app
-st.header("Story Generator", divider="rainbow")
+st.header("AI-Powered Story Generator", divider="rainbow")
 st.subheader("with Gemini API and LangChain")
 st.write("(Developer Jahanzeb)")
 text_model_pro = load_model()
