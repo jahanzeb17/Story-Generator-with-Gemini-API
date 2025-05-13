@@ -6,7 +6,7 @@ An interactive web application that generates compelling multi-chapter stories b
 
 ## 🚀 Live Demo
 
-> Coming Soon – or run locally by following the steps below.
+> Link: [https://story-generator-by-jahanzeb17.streamlit.app/].
 
 ---
 
